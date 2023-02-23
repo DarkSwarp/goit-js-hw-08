@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', event => {
   } catch (error) {
     console.log('Данні некоректні або відсутні');
   }
-  console.log(localStorageTextForm);
   inputEl.value = localStorageTextForm.email;
   textareaEl.value = localStorageTextForm.textarea;
 });
